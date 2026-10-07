@@ -1,8 +1,8 @@
 <?php
 	$usuario="root";
 	$senha='';
-	$dbname="sitePHP2";
-	$host="localhost";
+	$dbname="sitephp2";
+	$host="127.0.0.1";
 	
 	try{
 		$pdo = new pdo("mysql:host=$host;dbname=$dbname", $usuario, $senha);
